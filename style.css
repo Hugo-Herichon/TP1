@@ -1,0 +1,70 @@
+body {
+    background-color: #0a171a;
+}
+
+#icones{
+    color: white;
+}
+
+p,h1,h2,h3 {
+    color : white;
+    font-family: "Yeseva One", serif;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+
+header {
+    text-align: center;
+    padding: 5px;
+}
+
+#créatif{
+    color: rgb(10, 192, 101);
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+nav{
+    text-align: center;
+}
+
+nav button:nth-child(2) {
+    background-color: green;
+}
+
+button {
+    color: white;
+    background-color:#0a171a;
+    border: none;
+}
+
+footer{
+    text-align: center;
+}
+
+#image {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+#image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
